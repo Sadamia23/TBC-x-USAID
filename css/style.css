@@ -1,0 +1,43 @@
+/* General */
+body {
+  background-color: #1a1e1f;  
+  font-family: wfont_643d94_dd28b3957391427eb54de1c9eff7cfb1,
+    wf_dd28b3957391427eb54de1c9e, orig_tbc_x_regular ;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root{
+  --main-color-1: #f4f4f4;
+  --main-color-2: #00AEF3;
+}
+
+.section-grey {
+  background-color: rgb(43, 43, 43);
+  position: relative;
+}
+
+.section-darker {
+  background: #161616;
+}
+
+.container {
+  position: relative;
+  width: 1000px;
+  margin: auto;
+}
+
+.disable-scrolling{
+  overflow: hidden;
+}
+
+/* _________Responsive design_________ */
+
+@media screen and (max-width: 1060px) {
+  .container {
+    width: 88% !important;
+  }
+}

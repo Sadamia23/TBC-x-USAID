@@ -1,0 +1,37 @@
+/* information */
+
+.information{
+    padding: 50px 0px;
+    color: var(--main-color-1);
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.information a{
+    text-decoration: none;
+    transition: color .5s;
+    color: var(--main-color-2);
+}
+
+.information a:hover{
+    color: rgb(104, 102, 102);
+}
+
+/* Responsive */
+
+@media screen and (max-width:400px) {
+    .information{
+        font-size: 16px;
+    }
+    .information a{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:210px){
+    .information{
+        font-size: 10px;
+    }
+}
