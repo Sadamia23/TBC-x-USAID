@@ -107,7 +107,6 @@
   }
 
   .name,
-  .registration,
   .details a,
   .details {
     font-size: 14px;
@@ -115,6 +114,7 @@
 
   .registration {
     padding: 10px 0px;
+    font-size: 10px;
   }
   .details {
     padding: 3px 0px;
